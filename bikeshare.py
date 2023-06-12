@@ -276,6 +276,7 @@ def main():
                 print('Invalid input. Please enter "yes" or "no".')
 
         restart = ''
+        #Allow user to restart the app easily
         while restart.lower() not in ['yes', 'no']:
             restart = input('\nWould you like to restart? Enter yes or no.\n')
             if restart.lower() not in ['yes', 'no']:
